@@ -1,67 +1,127 @@
-# SMU Coding Boot Camp
+# 01 HTML CSS Git: Code Refactor
 
-## Course Requirements
+## Your Task
 
-#### Attendance
+**Note**: Be sure to review the [Homework Guide](../04-Important/Homework-Guide/README.md) and the [Good README Guide](../04-Important/Good-README-Guide/README.md) before you start working on this assignment!
 
-You can miss **no more** than a total of **8 classes**.
+This week is an odd-numbered week, so your homework is an on-the-job ticket, which means you'll begin with starter code that you need to modify. This week's homework involves a very important aspect of web development: **accessibility**. 
 
-##### [MARK YOUR ATTENDANCE HERE](http://bootcampspot.com)
+One of the most common tasks for front-end and junior developers is to take existing code and refactor it (recall that to refactor code is to improve it without changing what it does) to meet a certain set of standards or implement a new technology. In this homework, a marketing agency has hired you to refactor an existing site to make it more accessible. 
 
-#### Homework
+Web accessibility is an increasingly important consideration for businesses. It ensures that people with disabilities can access a website using assistive technologies such as video captions, screen readers, and braille keyboards. Making a website accessible is also good for business for many reasons, one of them being that accessible sites are better positioned in search engines like Google. It also helps companies avoid litigation that can occur when people with disabilities cannot access their website.
 
-Can forfeit up to 2 required tech homeworks **will impact GPA**. Hold at least a **70% average** on homeworks!
+Even though accessibility is a broad topic that can include complex requirements, your tech lead has given you a small list of specific criteria to satisfy the project. These criteria are documented below in the Acceptance Criteria.
 
-##### [SUBMIT YOUR HOMEWORK HERE](http://bootcampspot.com)
+**Important**: An important rule to follow when working with someone else's code is the **Scout Rule**, which recommends that you always leave the code a little cleaner than when you found it.
 
-#### Projects
+To impress clients, you should always go the extra mile and improve the codebase for long-term sustainability. For example, make sure that all links are functioning correctly. Also, rework the CSS to make it more efficient by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
 
-Participate in and contribute meaningfully to all class projects.
+Are you ready to jump in? Here are this week's homework requirements:
 
-## Office Hours
+## User Story
 
-Live Office Hours: 45 minutes before class and 30 minutes after class
+```
+AS A marketing agency
+I WANT a codebase that follows accessibility standards
+SO THAT our own site is optimized for search engines
+```
 
-## Important Links And Notes
+## Acceptance Criteria
 
-#### Course Overview
+```
+GIVEN a webpage meets accessibility standards
+WHEN I view the source code
+THEN I find semantic HTML elements
+WHEN I view the structure of the HTML elements
+THEN I find that the elements follow a logical structure independent of styling and positioning
+WHEN I view the image elements
+THEN I find accessible alt attributes
+WHEN I view the heading attributes
+THEN they fall in sequential order
+WHEN I view the title element
+THEN I find a concise, descriptive title
+```
 
-[Logistical Overview](https://docs.google.com/presentation/d/1-RTQozBoJPPex5Pg63m7pX_LcI5EXsgbfbsuFil_FyM/edit) | [Curriculum Overview](https://techbootcamps.smu.edu/coding/curriculum/)
+## Mock-Up
 
-#### Slack
+**Note**: This layout is designed for "desktop", so you may notice that some of the elements don't look like the Mock-Up when viewed at a resolution smaller than 768px. In future lessons, you will learn how to make elements "responsive" so that your web application is optimized for any screen size.
 
-https://smudalfsfpt01-o099008.slack.com
+The following image shows the web application's appearance and functionality:
 
-#### Student Guides
+![code refactor demo](./Assets/01-html-css-git-homework-demo.png)
 
-Our week goals, homework, slides, and other helpful resources.
+## Getting Started
 
-[Week 1](/01-HTML-Git-CSS/README.md) | Week 2
+Follow these instructions to create your project and deploy it to GitHub Pages:
 
-#### Activities
+1. Create a new repository on your GitHub account and clone it to your computer.
 
-Activities done in class and reviewed completed on your own.
+2. When you're ready to deploy, use `git add`, `git commit`, and `git push` commands to save and push your code to your GitHub repository.
 
-[Week 1](/01-HTML-Git-CSS/01-Activities) | Week 2
+3. Navigate in your browser to your GitHub repository and then navigate into your repository's `Settings` tab on the right side of the repository's page.
 
-#### Homework
+4. From the settings page, scroll down to the GitHub Pages section and then, in the section labeled `Source`, select that you would like to use the `main` branch as your source.
 
-[Homework Guide](/01-HTML-Git-CSS/04-Important/Homework-Guide) | [Steps to Upload to Github](/01-HTML-Git-CSS/04-Important/Steps%20To%20Upload%20to%20Github.pdf) | [Good README Guide](/01-HTML-Git-CSS/04-Important/Good-README-Guide)
+5. Navigate to `<your-github-username>.github.io/<your-repo-name>` and you will find that your new web page has gone live! (For example, if your GitHub username is `lernantino` and the project is `css-demo-site`, your URL would be `lernantino.github.io/css-demo-site`)
 
-Homework assignments **due dates are in BCS**!
+You can also refer to this [YouTube video](https://youtu.be/P4Mu1t5rIXg) to walk through the steps needed to deploy.
 
-[Week 1](/01-HTML-Git-CSS/02-Homework) | Week 2
+**Important**: It may take a few moments for GitHub pages to display your site correctly. If your project doesn't deploy or show up, make sure that all file paths in your application are relative and using the right casing. GitHub is case-sensitive, so there is a difference between a capitalized and uncapitalized letter to them.
 
-#### Class Recordings
+Make sure you add, commit, and push your work to see the most up-to-date version of your app!
 
-[Sessions](https://www.bootcampspot.com/sessions)
+## Grading Requirements
 
-#### Career Services
+This homework is graded based on the following criteria: 
 
-Information about career services and demo day information.
+### Technical Acceptance Criteria: 40%
 
-[General Info](https://mycareerspot.org/)
+* Satisfies all of the above acceptance criteria plus the following code improvements:
 
-##### Career Connection
+  * Application's links all function correctly.
 
-[Week 1](/01-HTML-Git-CSS/04-Important/CAREER-CONNECTION.md) | Week 2
+  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
+
+  * Application's CSS file is properly commented.
+
+### Deployment: 32%
+
+* Application deployed at live URL using GitHub Pages.
+
+* Application loads with no errors.
+
+* Application GitHub URL submitted.
+
+* GitHub repository that contains application code.
+
+### Application Quality: 15%
+
+* Application resembles (at least 90%) screenshots provided in the homework instructions.
+
+### Repository Quality: 13%
+
+* Repository has a unique name.
+
+* Repository follows best practices for file structure and naming conventions.
+
+* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+
+* Repository contains multiple descriptive commit messages.
+
+* Repository contains quality README file with description, screenshot, and link to deployed application.
+
+## Review
+
+You are required to submit the following for review:
+
+* The URL of the deployed application.
+
+* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+
+- - -
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
+
+## Getting Started
+
+I edited the code to create semantic HTML that aligns with HTML5. I also cleaned up and condensed the CSS coding to follow semantic structure.
