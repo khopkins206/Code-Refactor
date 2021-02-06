@@ -9,3 +9,9 @@ WHEN I viewed the image elements, I find was unable to find accessible alt attri
 When I view the heading attributes, they now fall in sequential order.
 
 WHEN I view the title element, I find a concise, descriptive title.
+
+Screenshots:
+
+<img src="images/Screen Shot 2021-02-04 at 8.02.49 PM.png">
+
+<img src="images/Screen Shot 2021-02-04 at 8.03.00 PM.png">
